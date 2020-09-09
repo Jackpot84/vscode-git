@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@531&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Grandstander', cursive;
+            font-size: 1rem;
+            /* float: left; */
+            text-align: left;
+            /* background-color: deepskyblue; */
+        }
+
+    
+        h1,
+        h2,
+        h3 {
+            font-weight: normal;
+        }
+        #tree{
+            color:tomato;
+        }
+        .container li {
+            list-style: none;
+            float: left;
+            display: inline-block;
+            width: 40%;
+            padding-left: 50px;
+            letter-spacing: 0.1em;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .container li:nth-child(1) {
+            padding-top: 200px;
+        }
+
+        .container li:nth-child(2) p:nth-child(1) {
+            margin-bottom: 300px;
+        }
+        .tree1 {
+            color:deepskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="container">
+        <li>
+            <h1 id="tree">각 구성 요소들의 역할</h1>
+            <p id="test1">
+                방금 알아봤듯이 웹은 <strong>HTML, CSS, JS</strong>(자바스크립트 : JavaScript)로 구성이 되어 있습니다. 그렇다면
+                순서대로 각 요소들이 어떠한 역할을 하는지 간략하게 알아보도록 하겠습니다.
+            </p>
+            <h2 class="tree1">HTML</h2>
+            <p id="test1">
+                HTML은 'Hyper Text Markup Language'(하이퍼 텍스트 마크업 랭귀지)의 줄임 말입니다. 이거 시작하기도 전에 웬 어려운 영어인가 싶으실지 모르겠지만, 처음
+                소개이니까 으레 좀 써봤습니다. 다음에 좀 더 자세히 설명하도록 할 테니 일단은 그냥 넘어가세요.
+                다만 저기 마크업(Markup)이라는 단어 때문에 HTML 코딩을 '마크업한다'라고 부르기도 합니다.<br><br>
+
+                이 요소의 역할은 웹 페이지의 내용을 담당합니다. 정말 순수하게 내용 만을 담당하는데 우리가 보는 현재 페이지에서 모든 장식적인 요소를 배제한 텍스트 정도라고 생각하시면 됩니다. 이게
+                무슨 의미인지 이해가 잘 안 되실 거라 예상 됩니다만, 잠시 후에 등장하는 예제를 확인하시면 감이 오실 겁니다.
+            </p>
+        </li>
+        <li>
+            <h2 class="tree1"> CSS </h2>
+            <p id="test2">
+                그 다음은 <strong>CSS</strong>로 <strong>'Cascading Style Sheet'</strong>(캐스캐이딩 스타일 시트)의 줄임 말입니다. 
+                여기서 주목 해야할 단어는 바로
+                'Style' 입니다. 혹시 예상이 되었나요? 바로 웹 페이지의
+                외형을 담당합니다. HTML이 메모장에서만 쓴 듯한 투박한 내용을 담고 있다면 CSS는 이 내용들에 색깔도 입히고, 여기저기 배치도 시키고 하면서 우리가 보는 웹 페이지의 모습을 아름답게
+                바꿔줍니다.
+            </p>
+            <h2 class="tree1">JavaScript</h2>
+            <p>
+                마지막으로 <strong>'JavaScript'</strong>(자바스크립트)입니다. 자바스크립트는 정말 스크립트로 웹페이지의 기능과 동작을 담당합니다. 웹페이지의 이미지 슬라이드 같은
+                종류나, 이
+                사이트의 경우는 우측 상단에 설정
+                버튼을 누르면 메뉴가 뜨고, 글자 크기를 조절하는 동작 같은 것들이 모두 자바스크립트의 역할 덕분입니다.<br><br>
+
+                일단 아쉽게도 현재 사이트에서는 자바스크립트를 다루지 않습니다. 그리고 아직 다룰 계획도 없고요. 그 이유는 자바스크립트가 사실상 프로그래밍 언어이기 때문에, 지식이 전무한 초보가
+                접근하기에는 난이도가
+                좀 있습니다. 그리고 그 분량도 HTML과 CSS를 합친 것 보다 많을 수 있습니다. 이러한 이유로 대부분의 서적들도 HTML, CSS와 자바스크립트를 따로 다룹니다. 그리고 가장
+                결정적인 이유로 제가
+                아직 자바스크립트를 강의할만한 실력이 안되기 때문입니다. 그리고 자바스크립트를 다루기 위해서는 기본적으로 HTML과 CSS를 다룰 줄 아셔야 하기 때문에 일단은 이 두 요소를 먼저
+                공부하셔야 합니다.
+
+                일단 이 세가지 요소를 아주 간략하게 살펴보았고요, 다음의 예시를 보시면서 직접 확인해 보시기 바랍니다. (예시의 우측 상단 버튼을 누르시면 각 요소역할을 확인해 보실 수 있습니다.)
+            </p>
+        </li>
+    </ul>
+</body>
+
+</html>
