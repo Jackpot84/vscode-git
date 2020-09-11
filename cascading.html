@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><!--하나의 태그에 여러개의 CSS가 적용되었을때 우선순위가 있음-->
+    <head>
+        <meta charset="utf-8">
+        <style>/*important이 단어로 style보다 우선권이 생김*/
+            li{color:tomato !important;}
+            #idsel{color:deepskyblue;}
+            .classsel{color:green;}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>html</li>
+            <li id="idsel" class="classsel" style="color:powderblue">css</li>
+            <li>javascript</li>
+        </ul>
+        <ol>
+            <li>style attribute</li>
+            <li>id selector</li>
+            <li>class selector</li>
+            <li>tag selector</li>
+            <!-- 위에서부터 아래로 우선순위가 잡힘. 무엇이 더 구체적인가에 대해서 우선순위가 잡힘.-->
+        </ol>
+        
+
+
+    </body>
+</html>
